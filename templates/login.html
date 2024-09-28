@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... -->
+</head>
+<body>
+    <!-- Place this inside the body tag, usually at the top so it's visible when the page loads-->
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+  {% for category, message in messages %}
+    <div class="alert alert-{{ category }}">
+        {{ message }}
+    </div>
+  {% endfor %}
+{% endif %}
+{% endwith %}
+
+  <div class="container mt-4">
+     <h2>Login</h2>
+     <form action="{{ url_for('login') }}" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+     </form>
+     <p>Don't have an account? <a href="{{ url_for('register') }}">Register</a></p>
+  </div>
+
+</body>
+</html>

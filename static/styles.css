@@ -1,0 +1,23 @@
+body {
+    background: url('../static/images/img.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    padding-bottom: 10%;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container a {
+    margin: 0 10px;
+    width: 100px;
+}
+
+.lic-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
