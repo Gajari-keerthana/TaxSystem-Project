@@ -8,7 +8,7 @@ _Overview_
 Database: SQLite (SQL syntax similar to MySQL or PostgreSQL for simplicity).
 UI: Frontend with CRUD operations(Create, Read, Update, Delete) for interacting with tax records.
 
-_Key Features_
+_Key Features_:
 1. HTTP Endpoints:
     POST: Add new tax payment records to the database.
     GET: View all tax payment records for the year.
@@ -18,7 +18,7 @@ _Key Features_
    Store and retrieve tax payment records using SQLite.
    Tables are structured to track yearly payments and estimate future payments.
 
-_Project Description_
+_Project Description_:
   This system will assit LLCs and similar small companies in tracking their tax payments to the NJ State tax office. Every year, these companies are required to make estimated tax payments four times a year, 
   on the following dates:
   April 15,
