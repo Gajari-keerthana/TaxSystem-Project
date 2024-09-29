@@ -3,7 +3,7 @@ _Overview_
   This project aims to develop a Tax and Payment Tracking System for small businesses, such as LLC, C, Corporations, or S Corporations.The system is designed to help tack, calculate, and save tax payment records 
   for these companies, making it easier to manage and meet annual tax obligations.
 
- _ Tech Stack_
+ _Tech Stack_
  Backend Framework: Python Flask (Microservice Architecture).
 Database: SQLite (SQL syntax similar to MySQL or PostgreSQL for simplicity).
 UI: Frontend with CRUD operations(Create, Read, Update, Delete) for interacting with tax records.
@@ -35,7 +35,7 @@ _Project Description_
   3. Payment Management:
       Users can view all tax payments made within the year and add new payments via the web UI.
 
-_Future Improvements_
+_Future Improvements_ :
  Integration with external payment gateways.
  Support for additional tax calculations and forms.
  Export tax record to CSV or PDF for easy reporting.
