@@ -1,4 +1,4 @@
-                                               **Tax and Payment Tracking System**
+                                      **Tax and Payment Tracking System**
 _Overview_
   This project aims to develop a Tax and Payment Tracking System for small businesses, such as LLC, C, Corporations, or S Corporations.The system is designed to help tack, calculate, and save tax payment records 
   for these companies, making it easier to manage and meet annual tax obligations.
@@ -19,10 +19,10 @@ _Key Features_:
    Tables are structured to track yearly payments and estimate future payments.
 
 _Tech Stack_:
-Backend: Python (Flask), SQLite, SQLAlchemy
-Frontend: HTML, CSS, JavaScript, jQuery
-Database: SQLite (supports PostgreSQL & MySQL)
-Version Control: GitHub
+ . Backend: Python (Flask), SQLite, SQLAlchemy
+ . Frontend: HTML, CSS, JavaScript, jQuery
+ . Database: SQLite (supports PostgreSQL & MySQL)
+ . Version Control: GitHub
 
 _Project Description_:
   This system will assit LLCs and similar small companies in tracking their tax payments to the NJ State tax office. Every year, these companies are required to make estimated tax payments four times a year, 
