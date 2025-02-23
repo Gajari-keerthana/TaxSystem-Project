@@ -19,10 +19,10 @@ _Key Features_:
    Tables are structured to track yearly payments and estimate future payments.
 
 _Tech Stack_:
- . Backend: Python (Flask), SQLite, SQLAlchemy
- . Frontend: HTML, CSS, JavaScript, jQuery
- . Database: SQLite (supports PostgreSQL & MySQL)
- . Version Control: GitHub
+ 1. Backend: Python (Flask), SQLite, SQLAlchemy
+ 2. Frontend: HTML, CSS, JavaScript, jQuery
+ 3. Database: SQLite (supports PostgreSQL & MySQL)
+ 4. Version Control: GitHub
 
 _Project Description_:
   This system will assit LLCs and similar small companies in tracking their tax payments to the NJ State tax office. Every year, these companies are required to make estimated tax payments four times a year, 
